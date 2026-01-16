@@ -1,13 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head> 
+<!--
+Title: “NUCLEAR FUSION” 
+Artists: Abood
+Spurce: https://openprocessing.org/sketch/2132251
+License: License CreativeCommons Attribution NonCommercial ShareAlike
+https://creativecommons.org/licenses/by-nc-sa/3.0 -->
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 <b>
 <title>Learn About Nuclear Power</title>
 </b>
+<style>
+
+ /* Reset default margins */
+
+ html, body {
+
+ margin: 0;
+
+ padding: 0;
+
+ }
+
+
+
+ /* Hero banner container */
+
+ #hero {
+
+ position: relative;
+
+ height: 50vh; /* 60% of screen height - CUSTOMIZE THIS */
+
+ overflow: hidden;
+
+ background: #00fe65; /* fallback color while animation loads */
+
+ }
+
+
+
+ /* Animation iframe - fills the hero */
+
+ .hero-embed {
+
+ position: absolute;
+
+ top: 0;
+
+ left: 0;
+
+ width: 100%;
+
+ height: 100%;
+
+ border: 0;
+
+ z-index: 1;
+
+ }
+
+
+
+ /* Title text on top of animation */
+
+ .site-title {
+
+ position: absolute;
+
+ top: 50%;
+
+ left: 50%;
+
+ transform: translate(-50%, -50%);
+
+ margin: 0;
+
+ color: #17c934; /* CUSTOMIZE THIS */
+
+ font-size: 3rem; /* CUSTOMIZE THIS */
+
+ text-shadow: 0 0 12px #000;
+
+ z-index: 10;
+
+ pointer-events: none;
+
+ }
+
+</style>
 </head>
 <body>
-<body style="background-color: aquamarine;">This background is aquamarine.</body>
+<header id="hero">
+
+ <iframe class="hero-embed" src="https://openprocessing.org/sketch/2132251/embed/" allowfullscreen></iframe>
+
+ <h1 class="site-title">Nuclear Power!</h1>
+
+</header>
+style="background-color: aquamarine;">This background is aquamarine.
 <h1>Nuclear Power!</h1>
 <h3>learn more about the radioactive world of nuclear power!</h3>
 <img src="Nuclear Power Plant Picture.jpeg" alt="Nuclear Power Plant">
